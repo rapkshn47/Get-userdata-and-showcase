@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;400&family=Nunito:wght@200;400&family=Poppins:ital@0;1&family=Roboto+Condensed:wght@300&family=Sora:wght@100&family=Work+Sans:wght@100&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="upper">
+            <p>Filter ui cards via their profession.</p>
+            <div class="profession">
+                <select name="profession" id="prof">
+                    <option value="" disabled selected hidden>Profession</option>
+                    <option value="admin">Admin</option>
+                    <option value="dev">Developer</option>
+                </select>
+            </div>
+            <div class="user-data">
+            </div>
+            <button>Filter</button>
+        </div>
+        <div class="lower">
+            <p>
+                Add a new user
+            </p>
+            <div class="enter-details">
+                <form id="myForm">
+                    <div>
+                        <label for="name">Enter Name</label><br>
+                        <input type="text" id="name">
+                    </div>
+                    <div>
+                        <label for="profession">Enter Profession</label><br>
+                        <input type="text" id="profession">
+                    </div>
+                    <div>
+                        <label for="age">Enter Age</label><br>
+                        <input type="text" id="age">
+                    </div>
+                    <button type="submit">Add User</button>
+                </form>
+            </div>
+            
+        </div>
+    </div>
+</body>
+</html>
